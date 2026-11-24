@@ -1,0 +1,99 @@
+DLH.io SQL Data Loader Agent License
+
+Copyright (c) 2026 AICG, Inc. (DLH.io). All rights reserved.
+
+1. Scope
+
+This license covers the contents of this repository and its GitHub Releases,
+including the DLH.io SQL Data Loader Agent (DLH.io Agent for SQL Server)
+installer, the agent software it installs, the setup guide, documentation,
+images and logos (the "Software"). The PowerShell bootstrap script is the only
+exception; see section 7.
+
+2. Permitted use
+
+You may download, install and use the Software to extract and deliver data
+from databases that you own or are authorized to operate.
+
+The community edition is free of charge. It extracts up to 10,000 rows per
+table or view and writes output locally. Unlimited extraction and cloud upload
+require a valid DLH.io API key. That use is also governed by the
+DLH.io Terms and Conditions
+(https://datalakehouse.io/legal/terms-and-conditions) and, where applicable,
+the DLH.io Data Processing Addendum
+(https://datalakehouse.io/legal/data-processing-addendum) or your separate
+written agreement with AICG, Inc.
+
+3. Restrictions
+
+Except as expressly permitted in this license or by applicable law, you may not:
+
+  a. modify, translate, reverse engineer, decompile or disassemble the
+     Software, or create derivative works of it;
+  b. copy, redistribute, sublicense, sell, rent, lease or host the installer
+     or agent for use by third parties;
+  c. remove, bypass or interfere with license checks, record limits, API key
+     requirements or code signing;
+  d. remove or alter any copyright, trademark or other proprietary notices.
+
+You may make internal copies of the installer as needed to deploy the
+Software at your own locations.
+
+4. Ownership and trademarks
+
+AICG, Inc. retains all right, title and interest in the Software. No rights
+are granted except those expressly stated in this license. "DLH.io",
+"DataLakeHouse.io" and the DLH.io logos are trademarks of AICG, Inc. and may
+not be used without written permission. Microsoft, SQL Server, Oracle and other
+product names are trademarks of their respective owners. The Software is not
+affiliated with or endorsed by them.
+
+5. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT, EXCEPT AS PROVIDED IN A
+SEPARATE WRITTEN AGREEMENT WITH AICG, INC.
+
+6. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, AICG, INC. SHALL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR ANY LOSS
+OF DATA, PROFITS OR REVENUE, ARISING OUT OF OR RELATED TO THE SOFTWARE OR THIS
+LICENSE, EXCEPT AS PROVIDED IN A SEPARATE WRITTEN AGREEMENT WITH AICG, INC.
+
+7. PowerShell bootstrap script (MIT License)
+
+The file Install-DlhAgentSqlServer.ps1, in this repository root, in archive/
+and in GitHub Releases, is licensed under the MIT License below, whether or not
+a given copy includes the notice in its header. The MIT License applies only
+to that script. It does not license the installer or the agent software.
+In the MIT License text below, "Software" means that script.
+
+    Copyright (c) 2026 AICG, Inc. (DLH.io)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+8. Termination
+
+This license ends automatically if you breach it. On termination you must stop
+using the Software and delete all copies. Sections 4 to 6 survive termination.
+
+Questions: open an issue in this repository or contact DLH.io through
+https://datalakehouse.io.
